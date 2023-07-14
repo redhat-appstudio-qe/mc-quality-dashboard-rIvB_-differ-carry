@@ -22,7 +22,7 @@ spec:
         app.kubernetes.io/instance: frontend-quality-dashboard-vjlb
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-appstudio-qe/multi-comp-e2e-dmie-tenant/mc-quality-dashboard/frontend-quality-dashboard-vjlb@sha256:e3c6a844d303672f39421a13b7f02e4eb266a7463ea020c48922fb52ebf8af10
         imagePullPolicy: Always
         name: container-image
         ports:
